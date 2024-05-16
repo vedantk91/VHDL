@@ -1,0 +1,47 @@
+# Reading C:/Users/kelka/modelsim_ase/tcl/vsim/pref.tcl 
+# do Barrel_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\Users\kelka\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\Users\kelka\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/VHDL/Barrel/db/barrels.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity barrels
+# -- Compiling architecture barrels_arch of barrels
+# 
+# vcom -93 -work work {C:/VHDL/Barrel/db/barrels_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity barrels_tb
+# -- Compiling architecture barrels_tb_arch of barrels_tb
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L max -L rtl_work -L work -voptargs="+acc" barrels_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L max -L rtl_work -L work -voptargs=\"+acc\" -t 1ps barrels_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.barrels_tb(barrels_tb_arch)
+# Loading work.barrels(barrels_arch)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# Break key hit 
+# Simulation stop requested.

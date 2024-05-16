@@ -1,0 +1,9 @@
+Fitter Status : Successful - Tue May 04 11:01:04 2021
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
+Revision Name : Barrel
+Top-level Entity Name : barrels
+Family : MAX3000A
+Device : EPM3064ALC44-10
+Timing Models : Final
+Total macrocells : 27 / 64 ( 42 % )
+Total pins : 25 / 34 ( 74 % )
